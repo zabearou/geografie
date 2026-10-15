@@ -1,0 +1,66 @@
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background: grey;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 200px;
+    width: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .title {
+    width: auto;
+    size: 40px;
+    padding: 10px;
+}
+
+h1 {
+    margin: 2px;
+}
+
+.title-img {
+    height: 100%;
+}
+
+
+.title-img img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.info-section {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    padding: 16px 20% 128px 20%;
+}
+
+.info {
+    border: 2px solid black;;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.info-img {
+    height: 150px;
+    width: 150px;
+}
