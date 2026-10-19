@@ -66,6 +66,7 @@ h1 {
     justify-content: flex-end;
 }
 
+
 .info-img {
     margin: 10px;
     width: auto;
@@ -94,6 +95,7 @@ h1 {
     background-color: cornflowerblue;
     display: flex;
     border: 2px solid blue;
+    flex-direction: column;
 }
 
 .info-text p {

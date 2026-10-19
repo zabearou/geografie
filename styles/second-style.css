@@ -90,14 +90,17 @@ h1 {
     width: 70%;
     margin: 2px;
     height: auto;
-    border: 2px solid white;
+    padding: 1%;
+}
+
+.text p{
+    font-size: 20px;
 }
 
 .pics {
     width: 30%;
     margin: 2px;
     height: auto;
-    border: 2px solid white;
 }
 
 .pics img {
